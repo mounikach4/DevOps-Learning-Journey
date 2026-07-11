@@ -1,71 +1,88 @@
-# 🐧 Day 1: Introduction to Linux, SDLC Models, and DevOps Basics
+# 🐧 Day 1 - Linux Basics
 
-Today, I started my DevOps journey by learning the fundamental concepts of Linux, its foundational platforms, software development methodologies, and the role of DevOps.
+## 🎯 Objective
 
-## 📘 1. What is Linux and What is it Based On?
-Linux is an **open-source operating system** that manages a computer's hardware and software resources. 
+Learn the fundamentals of Linux, understand basic DevOps concepts, and practice essential Linux commands.
+## 📘 What is Linux?
 
-* **The Unix Foundation:** Linux is **Unix-like**, meaning its architecture and design philosophy are heavily based on **Unix**, a powerful operating system created in the 1970s.
-* **The Linux Kernel:** Created by Linus Torvalds in 1991, the kernel interacts directly with your computer hardware. 
-* **GNU/Linux:** Most of the daily tools and command-line programs we use are based on the **GNU Project** software utilities combined with the Linux kernel.
+Linux is an open-source, Unix-like operating system widely used in servers, cloud computing, containers, and DevOps environments.
 
-### Where and on Which Platforms is Linux Used?
-In the DevOps world, you don't always need a physical Linux laptop. Instead, Linux is used on top of these popular platforms:
-1. **Cloud Platforms (AWS, Azure, GCP):** Most virtual servers (like AWS EC2 instances) run Linux distributions.
-2. **Virtualization Platforms:** Run inside your Windows system using **WSL** (Windows Subsystem for Linux), **VirtualBox**, or VMware.
-3. **Container Platforms (Docker, Kubernetes):** Lightweight isolated environments running microservices on top of a Linux base.
-4. **Enterprise Distributions:** Packaged into enterprise-ready operating systems like **Ubuntu, Red Hat Enterprise Linux (RHEL), CentOS, and Debian**.
+## 📘 Why Linux?
 
-### Why use Linux? (Key Benefits)
-* **Open-Source & Free:** Anyone can view, modify, and use the source code without paying licensing fees.
-* **High Security:** It is highly resistant to malware, viruses, and unauthorized access.
-* **Stability & Performance:** It can run for years without needing a reboot and consumes very few system resources.
+- Open Source
+- Secure
+- Stable
+- Fast
+- Widely used in cloud servers
 
----
+## 📘 SDLC Models
 
-## 🔄 2. Software Development Methodologies & DevOps
+### Waterfall
 
-### 📉 Waterfall Model
-* **What it is:** A traditional, linear project management approach where development flows sequentially down through distinct phases (Requirements -> Design -> Coding -> Testing -> Deployment).
-* **Key Feature:** You cannot move to the next phase until the current phase is completely finished. It is rigid and making changes late in the project is very difficult.
+A sequential software development model where each phase is completed before moving to the next.
 
-### 🏃 Agile Methodology
-* **What it is:** A modern, iterative approach to software development that focuses on continuous feedback and speed.
-* **Key Feature:** The project is broken down into small parts called "Sprints" (usually 2-4 weeks). Software is developed, tested, and released in small increments, making it highly adaptable to changes.
+### Agile
 
-### ♾️ What is DevOps?
-* **What it is:** DevOps is a combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications quickly.
-* **Key Feature:** It bridges the gap between the **Dev**elopment team (who write code) and the **Ops**erations team (who manage servers) to automate testing, deployment, and monitoring, ensuring faster and reliable software delivery.
+An iterative development methodology that delivers software in small, continuous releases.
+
+
+## 📘 What is DevOps?
+
+DevOps combines Development and Operations to automate software delivery, improve collaboration, and enable faster deployments.
+
+
 
 ## Commands Practiced
 
-## 💻 3. Linux Directory Navigation Commands
+## 💻 Commands Practiced
 
-* **`pwd` (Print Working Directory):** Displays the current folder path you are working in.
-* **`ls` (List):** Lists all files and sub-folders in the current directory.
-* **`ls -la`:** Shows all files, including hidden files, along with detailed permissions and sizes.
-* **`cd [folder_name]` (Change Directory):** Used to move inside a specific folder.
-* **`cd ..`:** Moves one step backward to the parent directory.
-* **`cd ~`:** Takes you directly to the user's home directory.
+1. pwd (Print Working Directory) - Displays the current working directory.
+Example: pwd
+Output: /home/ec2-user
 
+2. ls (List) - Lists all files and directories in the current directory.
+Example: ls
+Output: Documents  Downloads  file.txt
 
-## 📁 4. File & Folder Creation
+3. ls -la - Displays all files, including hidden files, with detailed information.
+Example: ls -la
 
-* **`mkdir [folder_name]` (Make Directory):** Creates a brand new folder.
-* **`touch [file_name]`:** Creates an empty file quickly.
+4. cd - Changes the current directory.
+Example: cd linux-practice
 
+5. cd .. - Moves to the parent directory.
+Example: cd ..
 
-## 📝 5. Working with File Content
+6. cd ~ - Moves directly to the home directory.
+Example: cd ~
 
-* **`echo "[text]"`:** Prints the specified text right on the screen.
-* **`echo "[text]" > file.txt`:** Creates a file and writes the text into it.
-* **`cat [file_name]` (Concatenate):** Opens and displays the text/content inside a file.
+7. mkdir - Creates a new directory.
+Example: mkdir practice
 
-## 🗑️ 6. File Management & Deletion
+8. touch -Creates a new empty file.
+Example: touch notes.txt
 
-* **`mv [old_name] [new_name]` (Move/Rename):** Renames a file or moves it to another location.
-* **`rm [file_name]` (Remove):** Deletes a file.
-* **`rmdir [folder_name]` (Remove Directory):** Deletes an empty folder.
+9. echo - Displays text or writes text into a file.
+Example: echo "Hello Linux"
+Write into a file: echo "Hello Linux" > notes.txt
+
+10. cat - Displays the contents of a file.
+Example: cat notes.txt
+
+11. cp - Copies a file from one location to another.
+Example: cp notes.txt copy.txt
+
+12. mv - Moves or renames a file.
+Example: mv copy.txt newfile.txt
+
+13. rm - Deletes a file.
+Example: rm newfile.txt
+
+14. rmdir -Deletes an empty directory.
+Example: rmdir practice
+
+15. rm -r - Deletes a directory and all its contents.
+Example: rm -r practice
 
 ## ✅ What I Practiced
 
@@ -77,13 +94,22 @@ In the DevOps world, you don't always need a physical Linux laptop. Instead, Lin
 - Renamed files
 - Deleted files
 
-## 💡 What I Learned
+## ❌ Mistakes I Made
+
+- Wrong Command
+- cd linuc-practice
+- Error
+- No such file or directory
+- Correct Command
+- cd linux-practice
+
+## 💡 Key Learnings
 
 - Linux is case-sensitive.
 - Commands should be typed correctly.
-- Basic Linux commands are the foundation of DevOps.
+- Linux basics are essential for DevOps.
   
-### 📸 Outputs:
+## 📸 Outputs:
 
 <img width="1920" height="1080" alt="Screenshot 2026-07-10 114240" src="https://github.com/user-attachments/assets/1b3ba098-c987-4176-a2f0-a40c6559f960" />
 <img width="1920" height="1080" alt="Screenshot 2026-07-10 114932" src="https://github.com/user-attachments/assets/7b7b072d-8bf9-4e64-8273-c3d8c985d9b6" />
