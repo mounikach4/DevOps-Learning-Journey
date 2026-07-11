@@ -14,16 +14,6 @@ Linux is an open-source operating system widely used in servers, cloud computing
 - Used in AWS
 - Used in Docker & Kubernetes
 
-## 📂 Linux File System
-
-| Directory | Purpose |
-|-----------|---------|
-| / | Root Directory |
-| /home | User Home |
-| /etc | Configuration Files |
-| /var | Logs |
-| /tmp | Temporary Files |
-
 ## 💻 Commands Practiced
 
 ```bash
