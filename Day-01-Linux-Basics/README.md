@@ -3,113 +3,96 @@
 ## 🎯 Objective
 
 Learn the fundamentals of Linux, understand basic DevOps concepts, and practice essential Linux commands.
-## 📘 What is Linux?
+
+## 📘 Topics Learned
+
+What is Linux?
 
 Linux is an open-source, Unix-like operating system widely used in servers, cloud computing, containers, and DevOps environments.
 
-## 📘 Why Linux?
+Why Linux?
 
-- Open Source
-- Secure
-- Stable
-- Fast
-- Widely used in cloud servers
+Open Source
 
-## 📘 SDLC Models
+Secure
 
-### Waterfall
+Stable
 
-A sequential software development model where each phase is completed before moving to the next.
+Fast
 
-### Agile
+Widely used in cloud servers
 
-An iterative development methodology that delivers software in small, continuous releases.
+SDLC Models
 
+Waterfall – A sequential software development model where each phase is completed before moving to the next.
 
-## 📘 What is DevOps?
+Agile – An iterative development methodology that delivers software in small, continuous releases.
+
+What is DevOps?
 
 DevOps combines Development and Operations to automate software delivery, improve collaboration, and enable faster deployments.
 
-
-
-## Commands Practiced
-
 ## 💻 Commands Practiced
 
-1. pwd (Print Working Directory) - Displays the current working directory.
-Example: pwd
-Output: /home/ec2-user
+pwd - Displays the current working directory.
 
-2. ls (List) - Lists all files and directories in the current directory.
-Example: ls
-Output: Documents  Downloads  file.txt
+ls - Lists all files and directories in the current directory.
 
-3. ls -la - Displays all files, including hidden files, with detailed information.
-Example: ls -la
+ls -la - Displays all files, including hidden files, with detailed information.
 
-4. cd - Changes the current directory.
-Example: cd linux-practice
+cd - Changes the current directory.
 
-5. cd .. - Moves to the parent directory.
-Example: cd ..
+cd .. - Moves to the parent directory.
 
-6. cd ~ - Moves directly to the home directory.
-Example: cd ~
+cd ~ - Moves directly to the home directory.
 
-7. mkdir - Creates a new directory.
-Example: mkdir practice
+mkdir - Creates a new directory.
 
-8. touch -Creates a new empty file.
-Example: touch notes.txt
+touch - Creates a new empty file.
 
-9. echo - Displays text or writes text into a file.
-Example: echo "Hello Linux"
-Write into a file: echo "Hello Linux" > notes.txt
+echo - Displays text or writes text into a file.
 
-10. cat - Displays the contents of a file.
-Example: cat notes.txt
+cat - Displays the contents of a file.
 
-11. cp - Copies a file from one location to another.
-Example: cp notes.txt copy.txt
+cp - Copies a file from one location to another.
 
-12. mv - Moves or renames a file.
-Example: mv copy.txt newfile.txt
+mv - Moves or renames a file.
 
-13. rm - Deletes a file.
-Example: rm newfile.txt
+rm - Deletes a file.
 
-14. rmdir -Deletes an empty directory.
-Example: rmdir practice
+rmdir - Deletes an empty directory.
 
-15. rm -r - Deletes a directory and all its contents.
-Example: rm -r practice
+rm -r - Deletes a directory and all its contents.
 
 ## ✅ What I Practiced
 
-- Created directories
-- Created files
-- Added text into files
-- Read file contents
-- Copied files
-- Renamed files
-- Deleted files
+Created directories.
+
+Created files.
+
+Added text into files.
+
+Read file contents.
+
+Copied files.
+
+Renamed files.
+
+Deleted files.
 
 ## ❌ Mistakes I Made
 
-- Wrong Command
-- cd linuc-practice
-- Error
-- No such file or directory
-- Correct Command
-- cd linux-practice
+Typed `cd linuc-practice` instead of `cd linux-practice` and received a **No such file or directory** error.
 
 ## 💡 Key Learnings
 
-- Linux is case-sensitive.
-- Commands should be typed correctly.
-- Linux basics are essential for DevOps.
-  
-## 📸 Outputs:
+Learned that Linux is case-sensitive.
+
+Understood that commands should be typed correctly.
+
+Learned that Linux basics are essential for DevOps.
+
+## 📸 Outputs
 
 <img width="1920" height="1080" alt="Screenshot 2026-07-10 114240" src="https://github.com/user-attachments/assets/1b3ba098-c987-4176-a2f0-a40c6559f960" />
 <img width="1920" height="1080" alt="Screenshot 2026-07-10 114932" src="https://github.com/user-attachments/assets/7b7b072d-8bf9-4e64-8273-c3d8c985d9b6" />
