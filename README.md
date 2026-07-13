@@ -7,7 +7,7 @@ Welcome to my DevOps Learning Journey.
 - ✅ Day 01 - Linux Basics
 - ✅ Day 02 - Linux Advanced commands
 - ✅ Day 03 - File System
-- ⏳ Day 04 - Vim Editor
+- ✅ Day 04 - Vim Editor
 - ⏳ Day 05 - Find & Locate
 - ⏳ Day 06 - Shell Scripting
 - ⏳ Docker
