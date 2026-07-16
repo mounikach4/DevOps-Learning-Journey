@@ -9,8 +9,8 @@ Welcome to my DevOps Learning Journey.
 - ✅ Day 03 - File System
 - ✅ Day 04 - Vim Editor
 - ✅ Day 05 - Linux Administration(user and group management)
-- ⏳ Day 06 - Files and Permissions
-- ⏳ Docker
+- ✅ Day 06 - Files and Permissions
+- ✅ Day 07 - File Ownership
 - ⏳ Kubernetes
 - ⏳ AWS
 - ⏳ Terraform
