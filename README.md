@@ -11,7 +11,7 @@ Welcome to my DevOps Learning Journey.
 - ✅ Day 05 - Linux Administration(user and group management)
 - ✅ Day 06 - Files and Permissions
 - ✅ Day 07 - File Ownership
-- ⏳ Kubernetes
+- ✅ Day 08 - SSH Key-Based Login & Root Access
 - ⏳ AWS
 - ⏳ Terraform
 - ⏳ Jenkins
