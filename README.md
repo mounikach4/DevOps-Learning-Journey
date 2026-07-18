@@ -12,7 +12,7 @@ Welcome to my DevOps Learning Journey.
 - ✅ Day 06 - Files and Permissions
 - ✅ Day 07 - File Ownership
 - ✅ Day 08 - SSH Key-Based Login & Root Access
-- ⏳ AWS
+- ✅ Day 09 - Package Management
 - ⏳ Terraform
 - ⏳ Jenkins
 
